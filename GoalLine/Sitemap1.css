@@ -1,0 +1,67 @@
+.main{
+	padding-top: 1.5em;
+}
+.box{
+    fill: rgb(190, 108, 0);
+    stroke: #A9A9A9; 
+    stroke-width:6;
+    cursor: pointer;
+}
+.box:hover{
+	fill: #FFFFE0;
+}
+.text{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 19px;
+}
+.line{
+    stroke:black;
+    stroke-width: 7;
+}
+.circle{
+	stroke: #696969;
+	stroke-width:4;
+}
+.circle:hover{
+	fill: #8FBC8F;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+.box1{
+    fill: rgb(139, 118, 90);
+    stroke: #A9A9A9; 
+    stroke-width:3;
+    cursor: pointer;
+}
+.box1:hover{
+	fill: #3ae905;
+}
+h1{
+    font-family: Palatino;
+    font-size: 40px;
+}
+.context{
+    display: inline-block;
+	
+	
+	vertical-align: middle; 
+    overflow: auto; 
+    padding:0px;
+    margin-left:0%;
+    margin-right:0%;
+}
+svg{
+    display: inline-block;
+	vertical-align: middle; 
+    overflow: auto; 
+   
+    width:90%;
+    font-family:Calibri;
+   
+
+}

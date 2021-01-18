@@ -1,0 +1,357 @@
+<html lang="en">
+<head>
+	<meta name="description" content="about football">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	
+	<title>GOAL LINE</title>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" type="text/css" href="laliga.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+	<link rel = "icon" href ="images\LG1.png" type = "image/x-icon"> 
+</head>
+<body>
+	<!--code for the sticky social bar which stick in the right side of the website-->
+	<div class="icon-bar" role="social media-navigation">
+			<a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
+			<a href="https://twitter.com/explore" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a> 
+			<a href="#" target="_blank" class="google"><i class="fa fa-google"></i></a> 
+			<a href="https://www.linkedin.com/feed/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+			<a href="https://www.youtube.com/" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+			<br>
+			<!--comments button with an icon which opens the comments or feedback form-->
+			<button class="button-comment" onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-comments"></i></button>
+	</div>
+	
+	<!--code for the page editor which show like a curtain menu-->
+	<div id="myNav" class="overlay" role="page-editor">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<div class="student"> 
+				STUDENT 2<br>
+				Editor: Fahd Fazal<br>
+				Student ID:2019656<br><br>
+				Tasks Completed<br>
+				Homepage page<br>
+				Comments form<br>
+				La liga page<br>
+				Layout of the website
+			</div>
+		</div>
+	</div>
+	
+	<!--header which contains logo and transparent background-->
+	<div class="header">
+		<div class="anime">
+		<img src="images\LG1.png" class="logo" alt="page-logo"><br>
+		</div>
+	</div>
+	
+	<!--top navigation bar-->
+	<div class="navbar" role="main-navigation">
+		<a href="homepage.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+		<a href="imageGallery.html"><i class="fa fa-camera"></i> Gallery</a> 
+		<a href="OnlineShop.html"><i class="fa fa-shopping-bag"></i> Shop Online</a> 
+		<a href="quiz.html"><i class="fa fa-question-circle"></i> Quiz</a>
+		<!--dropdown menu in navigation bar-->
+		<div class="dropdown" role="dropdown-list">
+			<button class="btndrop">
+				<i class="fa fa-caret-square-o-down"></i>
+				Football Leagues
+			</button>
+			<div class="dropdown-menu">
+				<a href="laliga.html" class="active-link">La Liga</a>
+				<a href="PremierLeague.html">Premier league</a>
+				<a href="serie.html">Serie A</a>
+				<a href="bundesliga.html">Bundesliga</a>
+			</div>
+		</div> 
+		<a href="about us.html"><i class="fa fa-info-circle"></i> About Us</a>
+	</div>
+	<br>
+	
+	<!--body or the content of the website-->
+	<div class="content">
+		<div class="context">
+			<h1>La Liga</h1>
+			<hr>
+			<div class="info-box">
+				<center><img src="images\La_Liga.png" class="laliga-logo" alt="laliga logo"></center>
+				<center><u><h1>Summary</h1></u></center>
+				<div class="row">
+					<div class="column">
+						<p>Founded</p>
+						<p>Country</p>
+						<p>Confederation</p>
+						<p>Number of teams</p>
+						<p>Current champions</p>
+						<p>Most championships</p>
+						<p>Top goalscorer</p>
+						<p>Website</p>
+					</div>
+					<div class="column">
+						<p>1929</p>
+						<p>Spain</p>
+						<a href="https://www.uefa.com/" target="_blank">UEFA</a>
+						<p>20</p>
+						<p>Barcelona(2018-2019)</p>
+						<p>Real Madrid(34 titles)</p>
+						<p>Lionel Messi</p>
+						<a href="https://www.laliga.com/en-GB" target="_blank">laliga.com</a>
+					</div>
+				</div>
+			</div>
+			<h2>Introduction</h2>
+			<ul>
+				<li>The Campeonato Nacional de Liga de Primera División,commonly known as La Liga(LaLiga Santander for sponsorship reasons with Santander), is the men's top professional football division of the Spanish football league system.</li><br>
+				<li>It is contested by 20 teams, with the three lowest-placed teams at the end of each season relegated to the Segunda División and replaced by the top two teams and a play-off winner in that division.</li><br>
+				<li>La Liga is one of the most popular professional sports leagues in the world, with an average attendance of 26,933 for league matches in the 2018–19 season. This is the sixth-highest of any domestic professional sports league in the world and the third-highest of any professional association football league in the world, behind the Bundesliga and the Premier League.</li><br>
+				<li>The competition format follows the usual double round-robin format. During the course of a season, which lasts from August to May, each club plays every other club twice, once at home and once away, for 38 matchdays. Teams receive three points for a win, one point for a draw, and no points for a loss. Teams are ranked by total points, with the highest-ranked club at the end of the season crowned champion.</li>
+			</ul>
+			<h2>History</h2>
+			<ul>
+				<li>In April 1928, José María Acha, a director at Arenas Club de Getxo, first proposed the idea of a national league in Spain. After much debate about the size of the league and who would take part, the Real Federación Española de Fútbol eventually agreed on the ten teams who would form the first Primera División in 1929.</li><br>
+				<li>Barcelona, Real Madrid, Athletic Bilbao, Real Sociedad, Arenas Club de Getxo, Real Unión,  Atlético Madrid, Espanyol, Europa and Racing de Santander are the selected ten teams. </li><br>
+				<li>Only three of the founding clubs, Real Madrid, Barcelona and Athletic Bilbao, have never been relegated from the Primera División.</li>
+			</ul><br>
+			<h2>Top Ten Teams in 2019/2020 season</h2>
+			<!--flip card images-->
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images\rm.jpg" alt="real madrid logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Real Madrid</h1> 
+						<h4>Standings Position</h4> 
+						<h4>#1</h4>
+					</div>
+				</div>
+			</div>
+			
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images\Barcelona.jpg" alt="barcelona logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Barcelona</h1> 
+						<h4>Standings Position</h4> 
+						<h4>#2</h4>
+					</div>
+				</div>
+			</div>
+			
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images\am.jpg" alt="athletico madrid logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Athletico Madrid</h1> 
+						<h4>Standings Position</h4> 
+						<h4>#3</h4>
+					</div>
+				</div>
+			</div>
+			
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images\sv.png" alt="sevilla logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Sevilla</h1> 
+						<h4>Standings Position</h4> 
+						<h4>#4</h4>
+					</div>
+				</div>
+			</div>
+			
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images\vl.jpg" alt="villarreal logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Villarreal</h1> 
+						<h4>Standings Position</h4> 
+						<h4>#5</h4>
+					</div>
+				</div>
+			</div>
+			
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images\gf.jpg" alt="getafe logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Getafe</h1> 
+						<h4>Standings Position</h4> 
+						<h4>#6</h4>
+					</div>
+				</div>
+			</div>
+			
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images\rs.jpg" alt="real sociedad logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Real Sociedad</h1> 
+						<h4>Standings Position</h4> 
+						<h4>#7</h4>
+					</div>
+				</div>
+			</div>
+			
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images\ab.png" alt="athletico bilbao logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Athletico Bilbao</h1> 
+						<h4>Standings Position</h4> 
+						<h4>#8</h4>
+					</div>
+				</div>
+			</div>
+			
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images\vc.jpg" alt="valencia logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Valencia</h1> 
+						<h4>Standings Position</h4> 
+						<h4>#9</h4>
+					</div>
+				</div>
+			</div>
+			
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images\gr.jpg" alt="granada logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Granada</h1> 
+						<h4>Standings Position</h4> 
+						<h4>#10</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--footer area-->
+	<div class="footer">
+		<br>
+
+        <span>
+                <div>
+        <center>CONNECT WITH US:<font size="5px">
+        <a href="https://www.facebook.com/" target="_blank" id="social" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/explore" target="_blank" id="social" class="fa fa-twitter"></a>
+        <a href="#" target="_blank" id="social" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/feed/" target="_blank" id="social" class="fa fa-linkedin"></a>
+        <a href="https://www.youtube.com/" target="_blank" id="social" class="fa fa-youtube"></a></font></center></div>
+      </span>
+
+       <span><br>     <div>
+        Need Help?<br>Call Us:<br>0769021688<br><br>
+        General Enquiries:<br>goalline@hotmail.com</span>
+        <span><br><br></div><div>
+        <label for="email1">Get updates directly to your inbox:</label>
+        <input type="text" style="width:200px;"name="signup" id="email1" value="Type your Email-address"><input type="submit" class="submit" value="SignUp" style="background-color:#66a3ff" onclick="submit()"><br><br>
+       &copy; 2020 GOAL LINE COMPANY.ALL RIGHTS RESERVED.<br><br>
+	   <!--quick links-->
+        <a href="Sitemap1.html" class="bottom-links">Sitemap  |</a> 
+		<a href="#" class="bottom-links">  Privacy Policy  |</a>
+		<a href="#" class="bottom-links">  Terms and Conditions  |</a>
+		<a href="#" class="bottom-links" onclick="openNav()">  Page Editor</a>
+        </div>
+        </span>
+	</div>
+	
+	
+	
+	<!--comments form-->
+	<div class="feedback" id="id01">
+		<form name="feedback form" class="feedback-popup animate" method="post" >
+			<div class="form-header">
+			 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+			 <h3>Feedback Form</h3>
+			</div>
+			<div>
+			<label for="username">Name:</label>
+			<input type="text" id="username" name="username" placeholder="Your name..">
+
+			<label for="email2">E-mail:</label>
+			<input type="text" id="email2" name="Email" placeholder="Your Email" >
+
+			<label for="comment">Comments:</label>
+			<textarea id="comment" name="comment" placeholder="Write something.." style="height:200px" ></textarea>
+
+			Rate our Website :&nbsp;
+				<input type="radio" id="Excellent" name="rate" value="Excellent">
+				<label for="Excellent">Excellent &#128525;</label>
+				<input type="radio" id="Good" name="rate" value="Good">
+				<label for="Good">Good &#128516;</label>
+				<input type="radio" id="Bad" name="rate" value="Bad">
+				<label for="Bad">Bad &#128533;</label>
+				<input type="radio" id="Worst" name="rate" value="Worst">
+				<label for="Worst">Worst &#128530;</label>
+	``<br>
+	<br>
+			<center> <input type="submit" value="Submit" onclick="return FormSubmission()"></center>
+		</form>
+		</div>
+	</div>
+	
+	<script>
+		function FormSubmission() {
+			var comments= document.getElementById("comment").value;
+			var name= document.getElementById("username").value;
+
+			if (name=="") {
+				alert("Name should be filled out!");
+				return false;
+				
+			}
+ 
+			var radios = document.getElementsByName("rate");
+			for (var i = 0, len = radios.length; i < len; i++) {
+				if (radios[i].checked) {
+					var radiovalue=radios[i].value;
+					alert("Dear "+name+", Thank You For Your Feedback! You have rated our site as "+radiovalue+" and your commment was "+comments+".");
+					document.getElementById('id01').style.display="none";
+					return true;
+				}
+			}
+			if(radiovalue==null){
+				alert("No rating is given!");
+				return false;
+			}
+		}
+		function openNav() {
+			document.getElementById("myNav").style.height = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.height = "0%";
+		}
+		function submit(){
+			var email= document.getElementById("email1").value;
+			if(email=="Type your Email-address" || email==""){
+				alert("please enter your email address!!!");
+			}else if(confirm("Did you enter correct email address?")){
+				alert("you have successfully registered, all updates will be sent to your email!");
+			}
+		}
+	</script>
+</body>
+</html>

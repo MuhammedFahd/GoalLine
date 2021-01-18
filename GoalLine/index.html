@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Welcome to GoalLine.com</title>
+	<link rel = "icon" href ="images\Logo1.jpg" type = "image/x-icon"> 
+    <style>
+        body {
+            background-image: url("images/loadscreen_03.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            color: darkgreen;
+            text-align: center;
+            font-size: 80px;
+            margin-top: 33px;
+            -webkit-text-stroke: 2px;
+            -webkit-text-stroke-color: white;
+            font-size: 50px;
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+            font-size: 50px;
+            -webkit-text-stroke: 2px;
+            -webkit-text-stroke-color: black;
+            margin: 30px 0px;
+        }
+
+        img {
+            height: 200px;
+            width: 150px;
+            border: 3px solid white;
+            border-radius: 10px;
+        }
+
+        figcaption {
+            color: black;
+            /* font-style: italic; */
+            font-size: 24px;
+            font-weight: bold;
+            /* -webkit-text-stroke: 1px;
+            -webkit-text-stroke-color: black; */
+        }
+
+        #image01 {
+            margin-left: 80px;
+            float: left;
+            clear: both;
+            text-align: center;
+        }
+
+        #image02 {
+            margin-left: 350px;
+            float: left;
+            clear: both;
+            text-align: center;
+            /* margin-top: 10px; */
+        }
+
+        #image03 {
+            margin-left: 620px;
+            float: inline-start;
+
+            /* float: right; */
+            /* float: left;
+            clear: right; */
+        }
+
+        #image03 img {
+            margin-left: 30px;
+        }
+
+        #image04 {
+            margin-left: 890px;
+            /* float: left;
+            clear: both; */
+        }
+
+        #image04 img {
+            margin-left: 25px;
+        }
+    </style>
+
+    <script>
+        function clickMain() {
+            window.location.href = "homepage.html";
+        }
+    </script>
+</head>
+
+<body onload="setTimeout(clickMain, 4000);">
+
+    <h1>
+        Welcome to GoalLine.com
+    </h1>
+    <h2>The Team:</h2>
+    <div id="image01">
+        <img src="images/Devin.jpg" alt="Devin Chandrapala">
+        <figcaption>Devin Chandrapala</figcaption>
+    </div>
+    <div id="image02">
+        <img src="images/fahd.jpeg" alt="Fahd Fazal">
+        <figcaption>Fahd Fazal</figcaption>
+    </div>
+    <div id="image03">
+        <img src="images/Linuka.jpg" alt="Linuka Goonetilleka">
+        <figcaption>Linuka Goonetilleka</figcaption>
+    </div>
+    <div id="image04">
+        <img src="images/Chehan.jpg" alt="Chehan Sivaruban">
+        <figcaption>Chehan Sivaruban</figcaption>
+    </div>
+
+</body>
+
+</html>

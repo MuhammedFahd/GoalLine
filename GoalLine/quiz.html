@@ -1,0 +1,399 @@
+<html lang="en">
+<head>
+	<meta name="description" content="about football">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	
+	<title>GOAL LINE</title>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+	<link rel = "icon" href ="images\LG1.png" type = "image/x-icon"> 
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" refer></script>
+</head>
+<body>
+	<div class="icon-bar" role="social media-navigation">
+   <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
+   <a href="https://twitter.com/explore" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a> 
+   <a href="#" target="_blank" class="google"><i class="fa fa-google"></i></a> 
+   <a href="https://www.linkedin.com/feed/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+   <a href="https://www.youtube.com/" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+   <br>
+   <button class="button-comment" onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-comments"></i></button>
+ </div>
+ <div id="myNav" class="overlay" role="page-editor">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+   <div class="student"> 
+				STUDENT 3<br>
+				Editor: Linuka Goonetilleka<br>
+				Student ID:2019692<br><br>
+				Tasks Completed<br>
+				Quiz page<br>
+				About us page<br>
+				Bundesliga page<br>
+  </div>
+</div>
+</div>
+<div class="header">
+  <div class="anime">
+    <img src="images\LG1.png" class="logo" alt="page-logo"><br>
+  </div>
+</div>
+<div class="navbar" role="main-navigation">
+  <a href="homepage.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="imageGallery.html"><i class="fa fa-camera"></i> Gallery</a> 
+  <a href="OnlineShop.html"><i class="fa fa-shopping-bag"></i> Shop Online</a> 
+  <a href="quiz.html" class="active-link"><i class="fa fa-question-circle"></i> Quiz</a>
+  <div class="dropdown" role="dropdown-list">
+   <button class="btndrop">
+    <i class="fa fa-caret-square-o-down"></i>
+    Football Leagues
+  </button>
+  <div class="dropdown-menu">
+    <a href="laliga.html">La Liga</a>
+    <a href="PremierLeague.html">Premier league</a>
+    <a href="serie.html">Serie A</a>
+    <a href="bundesliga.html">Bundesliga</a>
+  </div>
+</div> 
+<a href="about us.html"><i class="fa fa-info-circle"></i> About Us</a>
+</div>
+<br>
+<div class="content">
+
+ <head>
+  <title>Football Quiz</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" refer></script>
+</head>
+
+<body>
+  <div id="quiz-time-left"></div>
+    <h2 class="quizHeader">Football Quiz</h2>
+    <div>
+        <p class="question">1: When was the first Premier League?</p>
+      <ul>
+      <input class="answer" type="radio" name="q1" value="1">
+      <label id="correctString1">1992/1993</label>
+      <br>
+      <input class="answer" type="radio" name="q1" value="0">
+      <label>1969</label>
+      <br>
+      <input class="answer" type="radio" name="q1" value="0">
+      <label>2010</label>
+      <br> <input class="answer" type="radio" name="q1" value="0">
+      <label>2038</label>
+      </ul>
+    </div>
+
+    <div>
+        <p class="question">2: Who has the most European Cup/Champions League victories?</p>
+      <ul>
+      <input class="answer" type="radio" name="q2" value="0">
+      <label>Portugal</label>
+      <br>
+      <input class="answer" type="radio" name="q2" value="1">
+      <label id="correctString2">Real Madrid</label>
+      <br>
+      <input class="answer" type="radio" name="q2" value="0">
+      <label>Brazil</label>
+      <br>
+      <input class="answer" type="radio" name="q2" value="0">
+      <label>France</label>
+      </ul>
+    </div>
+
+    <div>
+        <p class="question">3: When did Liverpool last win the league?</p>
+      <ul>
+      <input class="answer" type="radio" name="q3" value="0">
+      <label>1991</label>
+      <br>
+      <input class="answer" type="radio" name="q3" value="1">
+      <label id="correctString3">1990</label>
+      <br>
+      <input class="answer" type="radio" name="q3" value="0">
+      <label>1924</label>
+      <br>
+      <input class="answer" type="radio" name="q3" value="0">
+      <label>2016</label>
+      </ul>
+    </div>
+
+    <div>
+        <p class="question">4: Who was the first £1million footballer?</p>
+      <ul>
+      <input class="answer" type="radio" name="q4" value="0">
+      <label>David Beckham</label>
+      <br>
+      <input class="answer" type="radio" name="q4" value="1">
+      <label id="correctString4">Trevor Francis</label>
+      <br>
+      <input class="answer" type="radio" name="q4" value="0">
+      <label>Lionel Messi</label>
+      <br>
+      <input class="answer" type="radio" name="q4" value="0">
+      <label>Christiano Ronaldo</label>
+      </ul>
+    </div>
+
+    <div>
+        <p class="question">5: Which team used to have Classic FM as its shirt sponsor?</p>
+      <ul>
+      <input class="answer" type="radio" name="q5" value="0">
+      <label>Liverpool</label>
+      <br>
+      <input class="answer" type="radio" name="q5" value="1">
+      <label id="correctString5">Queens Park Rangers</label>
+      <br>
+      <input class="answer" type="radio" name="q5" value="0">
+      <label>Real Madrid</label>
+      <br>
+      <input class="answer" type="radio" name="q5" value="0">
+      <label>Chelsea</label>
+      </ul>
+    </div>
+
+    <div>
+        <p class="question">6: How many times had Manchester City won the league before 2012?</p>
+      <ul>
+      <input class="answer" type="radio" name="q6" value="0">
+      <label>1 times</label>
+      <br>
+      <input class="answer" type="radio" name="q6" value="1">
+      <label id="correctString6">2 times</label>
+      <br>
+      <input class="answer" type="radio" name="q6" value="0">
+      <label>10 time</label>
+      <br>
+      <input class="answer" type="radio" name="q6" value="0">
+      <label>100 times</label>
+      </ul>
+    </div>
+
+    <div>
+        <p class="question">7: Who won the first Ballon d’Or?</p>
+      <ul>
+      <input class="answer" type="radio" name="q7" value="0">
+      <label>Christiano Ronaldo</label>
+      <br>
+      <input class="answer" type="radio" name="q7" value="1">
+      <label id="correctString7">Stanely Matthews</label>
+      <br>
+      <input class="answer" type="radio" name="q7" value="0">
+      <label>Lionel Messi</label>
+      <br>
+      <input class="answer" type="radio" name="q7" value="0">
+      <label>Zlatan Ibrahimović</label>
+      </ul>
+    </div>
+
+    <div>
+        <p class="question">8: How many times has Sergio Ramos been sent off in his career?</p>
+      <ul>
+      <input class="answer" type="radio" name="q8" value="0">
+      <label>1</label>
+      <br>
+      <input class="answer" type="radio" name="q8" value="1">
+      <label id="correctString8">26</label>
+      <br>
+      <input class="answer" type="radio" name="q8" value="0">
+      <label>4</label>
+      <br>
+      <input class="answer" type="radio" name="q8" value="0">
+      <label>80</label>
+      </ul>
+    </div>
+
+    <div>
+        <p class="question">9: Which was the last team from outside the top division to win the FA Cup?</p>
+      <ul>
+      <input class="answer" type="radio" name="q9" value="0">
+      <label>Manchester</label>
+      <br>
+      <input class="answer" type="radio" name="q9" value="1">
+      <label id="correctString9">West Ham</label>
+      <br>
+      <input class="answer" type="radio" name="q9" value="0">
+      <label>Chelsea</label>
+      <br>
+      <input class="answer" type="radio" name="q9" value="0">
+      <label>Liverpool</label>
+      </ul>
+    </div>
+
+    <div>
+        <p class="question">10: What was the name of Sunderland’s ground before they moved to the Stadium of Light?</p>
+      <ul>
+      <input class="answer" type="radio" name="q10" value="1">
+      <label id="correctString10">Roker Park</label>
+      <br>
+      <input class="answer" type="radio" name="q10" value="0">
+      <label>Poker Rark</label>
+      <br>
+      <input class="answer" type="radio" name="q10" value="0">
+      <label>Koper Karp</label>
+      <br>
+      <input class="answer" type="radio" name="q10" value="0">
+      <label>Ooker Oark</label>
+      </ul>
+    </div>
+    <br/>
+
+    <!-- Submit Button -->
+    <div class="submitter">
+      <input class="quizSubmit" id="submitButton" onClick="submitQuiz()" type="submit" value="Submit"/>
+    </div>
+    
+    <!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+    <div class="quizAnswers" id="correctAnswer5"></div>
+    <div class="quizAnswers" id="correctAnswer6"></div>
+    <div class="quizAnswers" id="correctAnswer7"></div>
+    <div class="quizAnswers" id="correctAnswer8"></div>
+    <div class="quizAnswers" id="correctAnswer9"></div>
+    <div class="quizAnswers" id="correctAnswer10"></div>
+  
+    <!--show score upon submit-->
+    <div>
+        <h2 class="quizScore" id="userScore"></h2>
+    </div>
+
+</div>
+<div class="footer">
+  <br>
+
+  <span>
+    <div>
+      <center>CONNECT WITH US:<font size="5px">
+        <a href="https://www.facebook.com/" target="_blank" id="social" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/explore" target="_blank" id="social" class="fa fa-twitter"></a>
+        <a href="#" target="_blank" id="social" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/feed/" target="_blank" id="social" class="fa fa-linkedin"></a>
+        <a href="https://www.youtube.com/" target="_blank" id="social" class="fa fa-youtube"></a></font></center></div>
+      </span>
+
+      <span><br>     <div>
+        Need Help?<br>Call Us:<br>0769021688<br><br>
+        General Enquiries:<br>goalline@hotmail.com</span>
+        <span><br><br></div><div>
+          Get updates directly to your inbox:
+          <input type="text" style="width:200px;"name="signup" id="email1" value="Type your Email-address"><input type="submit" class="submit" value="SignUp" style="background-color:#66a3ff" onclick="submit()"><br><br>
+          &copy; 2020 GOAL LINE COMPANY.ALL RIGHTS RESERVED.<br><br>
+          <a href="Sitemap1.html" class="bottom-links">Sitemap  |</a> 
+          <a href="#" class="bottom-links">  Privacy Policy  |</a>
+          <a href="#" class="bottom-links">  Terms and Conditions  |</a>
+          <a href="#" class="bottom-links" onclick="openNav()">  Page Editor</a>
+        </div>
+      </span>
+    </div>
+
+
+
+
+    <div class="feedback" id="id01">
+      <form name="feedback form" class="feedback-popup animate" method="post" >
+       <div class="form-header">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+        <h3>Feedback Form</h3>
+      </div>
+      <div>
+       <label for="fname">Name:</label>
+       <input type="text" id="username" name="username" placeholder="Your name..">
+
+       <label for="email2">E-mail:</label>
+       <input type="text" id="email2" name="Email" placeholder="Your Email" >
+
+       <label for="comment">Comments:</label>
+       <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px" ></textarea>
+
+       <label for="country">Rate our Website : </label>&nbsp;
+       <input type="radio" id="rate" name="rate" value ="Excellent">
+       <label for="Rate">Excellent  &#128525;</label>
+       <input type="radio" id="rate" name="rate" value ="Good">
+       <label for="Rate">Good  &#128516;</label>
+       <input type="radio" id="rate" name="rate" value ="Bad">
+       <label for="Rate">Bad  &#128533;</label>
+       <input type="radio" id="rate" name="rate" value ="Worst">
+       <label for="Rate">Worst  &#128530;</label>
+       ``<br>
+       <br>
+       <center> <input type="submit" value="Submit" onclick="return FormSubmission()"></center>
+     </form>
+   </div>
+ </div>
+
+ <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+   var i;
+   var slides = document.getElementsByClassName("mySlides");
+   var dots = document.getElementsByClassName("dot");
+   for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+   for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+			setTimeout(showSlides, 3000); // Change image every 3 seconds
+		}
+		
+		function FormSubmission() {
+			var comments= document.getElementById("comment").value;
+			var name= document.getElementById("username").value;
+
+			if (name=="") {
+				alert("Name should be filled out!");
+				return false;
+				
+			}
+
+			var radios = document.getElementsByName("rate");
+			for (var i = 0, len = radios.length; i < len; i++) {
+				if (radios[i].checked) {
+					var radiovalue=radios[i].value;
+					alert("Dear "+name+", Thank You For Your Feedback! You have rated our site as "+radiovalue+" and your commment was "+comments+".");
+					document.getElementById('id01').style.display="none";
+					return true;
+				}
+			}
+			if(radiovalue==null){
+				alert("No rating is given!");
+				return false;
+			}
+		}
+		function openNav() {
+			document.getElementById("myNav").style.height = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.height = "0%";
+		}
+		
+		function submit(){
+			var email= document.getElementById("email1").value;
+			if(email=="Type your Email-address" || email==""){
+				alert("please enter your email address!!!");
+			}else if(confirm("Did you enter correct email address?")){
+				alert("you have successfully registered, all updates will be sent to your email!");
+			}
+		}
+	</script>
+
+
+
+
+
+
+
+</body>
+</html>

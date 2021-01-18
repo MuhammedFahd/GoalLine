@@ -1,0 +1,466 @@
+<html lang="en">
+
+<head>
+	<meta name="description" content="about football">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+
+	<title>GOAL LINE</title>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+	<link rel = "icon" href ="images\LG1.png" type = "image/x-icon"> 
+	<link rel="stylesheet" type="text/css" href="OnlineShop.css">
+	<script src="OnlineShop.js"></script>
+</head>
+
+<body>
+	<div class="icon-bar" role="social media-navigation">
+		<a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/explore" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+		<a href="#" target="_blank" class="google"><i class="fa fa-google"></i></a>
+		<a href="https://www.linkedin.com/feed/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+		<a href="https://www.youtube.com/" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+		<br>
+		<button class="button-comment" onclick="document.getElementById('id01').style.display='block'"><i
+				class="fa fa-comments"></i></button>
+	</div>
+	<div id="myNav" class="overlay" role="page-editor">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<div class="student">
+				STUDENT 2<br>
+				Editor: Devin Chandrapala<br>
+				Student ID:2019663<br><br>
+				Tasks Completed<br>
+				Presentation page<br>
+				Shop online page<br>
+				Premier league page<br>
+				font size change
+			</div>
+		</div>
+	</div>
+	<header>
+		<div class="header">
+			<div class="anime">
+				<img src="images\LG1.png" class="logo" alt="page-logo"><br>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<div class="navbar" role="main-navigation">
+			<a href="homepage.html"><i class="fa fa-fw fa-home"></i> Home</a>
+			<a href="imageGallery.html"><i class="fa fa-camera"></i> Gallery</a>
+			<a href="OnlineShop.html" class="active-link"><i class="fa fa-shopping-bag"></i> Shop Online</a>
+			<a href="quiz.html"><i class="fa fa-question-circle"></i> Quiz</a>
+			<div class="dropdown" role="dropdown-list">
+				<button class="btndrop">
+					<i class="fa fa-caret-square-o-down"></i>
+					Football Leagues
+				</button>
+				<div class="dropdown-menu">
+					<a href="laliga.html">La Liga</a>
+					<a href="PremierLeague.html">Premier league</a>
+					<a href="serie.html">Serie A</a>
+					<a href="bundesliga.html">Bundesliga</a>
+				</div>
+			</div>
+			<a href="about us.html"><i class="fa fa-info-circle"></i> About Us</a>
+		</div>
+	</nav>
+	<br>
+	<main>
+		<div class="content">
+			<h1>Shop Online</h1>
+
+			<div class="item-view">
+				<div class="item-single">
+					<img src="images/football_tshirt.jpg" alt="Football Tshirt" class="item-image">
+					<div id="div01" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Football Tshirt')">+</button>
+						<p id="text01" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem" onclick="decreaseItem('Football Tshirt')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_boot.jpg" alt="Football Boot" class="item-image">
+					<div id="div02" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Football Boot')">+</button>
+						<p id="text02" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem" onclick="decreaseItem('Football Boot')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_ball.jpg" alt="Football" class="item-image">
+					<div id="div03" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Football')">+</button>
+						<p id="text03" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem" onclick="decreaseItem('Football')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_bag.jpg" alt="Football Bag" class="item-image">
+					<div id="div04" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Football Bag')">+</button>
+						<p id="text04" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem" onclick="decreaseItem('Football Bag')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_balladidas.jpg" alt="Adidas Football" class="item-image">
+					<div id="div05" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Adidas Football')">+</button>
+						<p id="text05" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem" onclick="decreaseItem('Adidas Football')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_jerseyshorts.jpg" alt="Football Jersey and Shorts" class="item-image">
+					<div id="div06" class="item-button">
+						<button class="button-inline addItem"
+							onclick="increaseItem('Football Jersey and Shorts')">+</button>
+						<p id="text06" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem"
+							onclick="decreaseItem('Football Jersey and Shorts')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_bootsorange.jpg" alt="Orange Football Boots" class="item-image">
+					<div id="div07" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Orange Football Boots')">+</button>
+						<p id="text07" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem"
+							onclick="decreaseItem('Orange Football Boots')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_gloves.jpg" alt="Football Gloves" class="item-image">
+					<div id="div08" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Football Gloves')">+</button>
+						<p id="text08" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem" onclick="decreaseItem('Football Gloves')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_bottleblue.jpg" alt="Mitre Water Bottle" class="item-image">
+					<div id="div09" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Mitre Water Bottle')">+</button>
+						<p id="text09" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem" onclick="decreaseItem('Mitre Water Bottle')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_socks.jpg" alt="Football Socks" class="item-image">
+					<div id="div10" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Football Socks')">+</button>
+						<p id="text10" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem" onclick="decreaseItem('Football Socks')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_jerseyblue.jpg" alt="Blue Football Jersey" class="item-image">
+					<div id="div11" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Blue Football Jersey')">+</button>
+						<p id="text11" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem"
+							onclick="decreaseItem('Blue Football Jersey')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_shorts.jpg" alt="Football Shorts" class="item-image">
+					<div id="div12" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Football Shorts')">+</button>
+						<p id="text12" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem" onclick="decreaseItem('Football Shorts')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_bottle.jpg" alt="Direct Soccer Water Bottle" class="item-image">
+					<div id="div13" class="item-button">
+						<button class="button-inline addItem"
+							onclick="increaseItem('Direct Soccer Water Bottle')">+</button>
+						<p id="text13" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem"
+							onclick="decreaseItem('Direct Soccer Water Bottle')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_glovesbluegreen.jpg" alt="Green and Blue Football Gloves"
+						class="item-image">
+					<div id="div14" class="item-button">
+						<button class="button-inline addItem"
+							onclick="increaseItem('Green and Blue Football Gloves')">+</button>
+						<p id="text14" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem"
+							onclick="decreaseItem('Green and Blue Football Gloves')">-</button>
+					</div>
+				</div>
+
+				<div class="item-single">
+					<img src="images/football_kit.jpg" alt="Football Kit" class="item-image">
+					<div id="div15" class="item-button">
+						<button class="button-inline addItem" onclick="increaseItem('Football Kit')">+</button>
+						<p id="text15" class="button-inline item-count">Add to Cart</p>
+						<button class="button-inline removeItem" onclick="decreaseItem('Football Kit')">-</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="order-form">
+				<form name="OrderForm" onsubmit="submitForm()">
+					<fieldset>
+						<legend>
+							<h2>Place Your Order</h2>
+						</legend>
+						<fieldset class="view-blur">
+							<legend>
+								<h3>Your Details</h3>
+							</legend>
+
+							<label for="firstName">First Name:</label>
+							<input type="text" id="firstName" class="customer-info"><br>
+
+							<label for="lastName">Last Name:</label>
+							<input type="text" id="lastName" class="customer-info"><br>
+
+							<label for="address">Address:</label>
+							<input type="text" id="address" class="customer-info"><br>
+
+							<label for="telNo">Tel No:</label>
+							<input type="text" id="telNo" class="customer-info"><br>
+
+							<label for="emailAddress">E-mail:</label>
+							<input type="text" id="emailAddress" class="customer-info"><br>
+						</fieldset>
+						<fieldset class="view-blur">
+							<legend>
+								<h3>Your Order</h3>
+							</legend>
+
+							<div class="receipt">
+								<div class="headings">Item</div>
+								<div class="headings">Quantity</div>
+								<div class="headings">Price</div>
+
+								<div id="loc_01_01" class="items"></div>
+								<div id="loc_01_02" class="items"></div>
+								<div id="loc_01_03" class="items"></div>
+								<div id="loc_02_01" class="items"></div>
+								<div id="loc_02_02" class="items"></div>
+								<div id="loc_02_03" class="items"></div>
+								<div id="loc_03_01" class="items"></div>
+								<div id="loc_03_02" class="items"></div>
+								<div id="loc_03_03" class="items"></div>
+								<div id="loc_04_01" class="items"></div>
+								<div id="loc_04_02" class="items"></div>
+								<div id="loc_04_03" class="items"></div>
+								<div id="loc_05_01" class="items"></div>
+								<div id="loc_05_02" class="items"></div>
+								<div id="loc_05_03" class="items"></div>
+
+								<div class="total-display items" style="font-style: italic;">Total:</div>
+								<div id="total" class="items" style="font-weight: bold;"></div>
+							</div>
+
+						</fieldset>
+						<fieldset class="view-blur">
+							<legend>
+								<h3>Your Billing Information</h3>
+							</legend>
+
+							<label for="cardNumber">Card Number:</Label>
+							<input type="text" id="cardNumber"><br>
+
+							<label for="nameOnCard">Name on Card:</label>
+							<input type="name" id="nameOnCard"><br>
+
+							<label for="expiryDate">Expiry Date:</label>
+							<input type="text" id="expiryDate"><br>
+
+							<label for="cvv">CVV:</label>
+							<input type="text" id="cvv"><br>
+
+							<p>Please select your Card Type:</p>
+
+							<label for="visaMaster">Visa/MasterCard</label>
+							<input type="radio" id=visaMaster name="cardType" value="visaMaster">
+
+							<label for="amex">American Express</label>
+							<input type="radio" id="amex" name="cardType" value="amex">
+						</fieldset>
+						<div>
+							<button form="OrderForm" type="reset" class="big-button" onclick="resetOrderForm()">Clear
+								All</button>
+							<button form="OrderForm" type="submit" class="big-button"
+								onclick="submitOrderForm()">Confirm
+								Payment</button>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="footer">
+			<br>
+
+			<span>
+				<div>
+					<center>CONNECT WITH US:<font size="5px">
+							<a href="https://www.facebook.com/" target="_blank" id="social" class="fa fa-facebook"></a>
+							<a href="https://twitter.com/explore" target="_blank" id="social" class="fa fa-twitter"></a>
+							<a href="#" target="_blank" id="social" class="fa fa-google"></a>
+							<a href="https://www.linkedin.com/feed/" target="_blank" id="social"
+								class="fa fa-linkedin"></a>
+							<a href="https://www.youtube.com/" target="_blank" id="social" class="fa fa-youtube"></a>
+						</font>
+					</center>
+				</div>
+			</span>
+
+			<span><br>
+				<div>
+					Need Help?<br>Call Us:<br>0769021688<br><br>
+					General Enquiries:<br>goalline@hotmail.com
+			</span>
+			<span><br><br></div>
+		<div>
+			<Label for="email1">Get updates directly to your inbox:</Label>
+			<input type="text" style="width:200px;" name="signup" id="email1" value="Type your Email-address"><input
+				type="submit" class="submit" value="Sign Up" style="background-color:#66a3ff"
+				onclick="submit()"><br><br>
+			&copy; 2020 GOAL LINE COMPANY.ALL RIGHTS RESERVED.<br><br>
+			<a href="Sitemap1.html" class="bottom-links">Sitemap |</a>
+			<a href="#" class="bottom-links"> Privacy Policy |</a>
+			<a href="#" class="bottom-links"> Terms and Conditions |</a>
+			<a href="#" class="bottom-links" onclick="openNav()"> Page Editor</a>
+		</div>
+	</footer>
+	</span>
+	</div>
+
+
+
+
+	<div class="feedback" id="id01">
+		<form name="feedback form" class="feedback-popup animate" method="post">
+			<div class="form-header">
+				<button onclick="document.getElementById('id01').style.display='none'" class="close"
+					title="Close">&times;</button>
+				<h3>Feedback Form</h3>
+			</div>
+			<div>
+				<label for="username">Name:</label>
+				<input type="text" id="username" name="username" placeholder="Your name..">
+
+				<label for="email2">E-mail:</label>
+				<input type="text" id="email2" name="Email" placeholder="Your Email">
+
+				<label for="comment">Comments:</label>
+				<textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+
+				<fieldset>
+					<legend>Rate our Website : </legend>&nbsp;
+					<input type="radio" id="excellent" name="rate" value="Excellent">
+					<label for="excellent">Excellent &#128525;</label>
+					<input type="radio" id="good" name="rate" value="Good">
+					<label for="good">Good &#128516;</label>
+					<input type="radio" id="bad" name="rate" value="Bad">
+					<label for="bad">Bad &#128533;</label>
+					<input type="radio" id="worst" name="rate" value="Worst">
+					<label for="worst">Worst &#128530;</label>
+					``<br>
+					<br>
+					<center> <input type="submit" value="Submit" onclick="return FormSubmission()"></center>
+				</fieldset>
+		</form>
+	</div>
+	</div>
+
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {
+				slideIndex = 1
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+			setTimeout(showSlides, 3000); // Change image every 3 seconds
+		}
+
+		function FormSubmission() {
+			var comments = document.getElementById("comment").value;
+			var name = document.getElementById("username").value;
+
+			if (name == "") {
+				alert("Name should be filled out!");
+				return false;
+
+			}
+
+			var radios = document.getElementsByName("rate");
+			for (var i = 0, len = radios.length; i < len; i++) {
+				if (radios[i].checked) {
+					var radiovalue = radios[i].value;
+					alert("Dear " + name + ", Thank You For Your Feedback! You have rated our site as " + radiovalue +
+						" and your commment was " + comments + ".");
+					document.getElementById('id01').style.display = "none";
+					return true;
+				}
+			}
+			if (radiovalue == null) {
+				alert("No rating is given!");
+				return false;
+			}
+		}
+
+		function openNav() {
+			document.getElementById("myNav").style.height = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.height = "0%";
+		}
+
+		function submit() {
+			var email = document.getElementById("email1").value;
+			if (email == "Type your Email-address" || email == "") {
+				alert("please enter your email address!!!");
+			} else if (confirm("Did you enter correct email address?")) {
+				alert("you have successfully registered, all updates will be sent to your email!");
+			}
+		}
+	</script>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,625 @@
+<html lang="en">
+
+<head>
+
+	<meta name="description" content="about football">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	
+	<title>GOAL LINE</title>
+	<link rel="icon" type="png" href="images/LG1.png">
+	<link rel="stylesheet" type="text/css" href="imagegallerycss.css">
+	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+	<link rel = "icon" href ="images\LG1.png" type = "image/x-icon"> 
+	
+</head>
+
+
+<body>
+
+	<div class="icon-bar" role="social media-navigation">
+			<a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
+			<a href="https://twitter.com/explore" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a> 
+			<a href="#" target="_blank" class="google"><i class="fa fa-google"></i></a> 
+			<a href="https://www.linkedin.com/feed/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+			<a href="https://www.youtube.com/" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+			<br>
+			<button class="button-comment" onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-comments"></i></button>
+	</div>
+
+	<div id="myNav" class="overlay" role="page-editor">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<div class="student"> 
+				STUDENT 4<br>
+				Editor: Chehan Sivaruban<br>
+				Student ID:2019666<br><br>
+				Tasks Completed<br>
+				Gallery page<br>
+				Sitemap<br>
+				Serie A page<br>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="header">
+		<div class="anime">
+		<img src="images\LG1.png" class="logo" alt="page-logo"><br>
+		</div>
+	</div>
+	<div class="navbar" role="main-navigation">
+		<a href="homepage.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+		<a href="imageGallery.html" class="active-link"><i class="fa fa-camera"></i> Gallery</a> 
+		<a href="OnlineShop.html"><i class="fa fa-shopping-bag"></i> Shop Online</a> 
+		<a href="quiz.html"><i class="fa fa-question-circle"></i> Quiz</a>
+		<div class="dropdown" role="dropdown-list">
+			<button class="btndrop">
+				<i class="fa fa-caret-square-o-down"></i>
+				Football Leagues
+			</button>
+			<div class="dropdown-menu">
+				<a href="laliga.html">La Liga</a>
+				<a href="PremierLeague.html">Premier league</a>
+				<a href="serie.html">Serie A</a>
+				<a href="bundesliga.html">Bundesliga</a>
+			</div>
+		</div> 
+
+		<a href="about us.html"><i class="fa fa-info-circle"></i> About Us</a>
+	</div>
+	<br>
+
+	
+	<br>
+
+	<div class="content" id= "content">
+		<!-- color change begins -->
+	 <div class="colork">
+     
+		<di class="dropdown2">
+		 <label for="bgcolor">Choose the background color:</label>
+			<select id="bgcolor" name="bgcolorlist" form="bgcolorform">
+				<option value="">------select color---------</option>
+				<option value=" rgba(146, 28, 48, 0.452)" class="bgColor1"></option>
+				<option value=" rgba(38, 38, 73, 0.452)" class="bgColor2"></option>
+				<option value="rgba(20, 170, 45, 0.452)" class="bgColor3"></option>
+				<option value="  rgb(255, 96, 4,0.452)" class="bgColor4"></option>
+				<option value="rgb(251, 255,0.452)" class="bgColor5"></option>
+				<option value="rgb(222, 0, 252, 0.452)" class="bgColor6"></option>
+			</select>
+   
+		<label for="txtcolor">Choose the text color:</label>
+		  <select id="txtcolor" name="txtcolorlist" form="txtcolorform">
+			<option value="">------select color---------</option>
+			<option value="rgb(218, 171, 189)" class="txtColor1">Pink</option>
+			<option value="rgb(25, 25, 143)" class="txtColor2">Blue</option>
+			<option value="rgb(161, 14, 14)" class="txtColor3">Red</option>
+			<option value="rgb(247, 119, 0)" class="txtColor4">Orange</option>
+			<option value="rgb(238, 234, 3)" class="txtColor5">Yellow</option>
+			<option value="rgb(10, 248, 117)" class="txtColor6">Green</option>
+		  </select>
+		  <button onclick="colorChange()">Apply</button>
+		  </div>
+		 <br><br><br><br><br><br><br><br><br><br><br><br><br>
+		 <div class="intro" id="intro">
+			 <ul>
+				 <li>Whether it is the latest news of the general nature you are after, the transfer dealings you can find in our transfer news and rumours section, filled with the up-to-the-minute transfer stories from local sources, or the extensive coverage of all relevant soccer events around the globe – through well-informed and opinionated articles from our top writers – Goal Line is the place to visit.<br><br></li>
+				<li>For all of those who like to push their love for soccer to a higher level and are ardent about following detailed statistics that they can put in a good use to win a (responsible) bet or two, we are here to offer an extensive betting guide and an in-depth betting section regularly updated with the comprehensive match predictions, betting promotions and tips.</li>
+		 </div>
+			<br><br><br><br><br><br>
+		<!--color change ends-->
+
+		<!--image gallery-->
+
+		<div class="row">
+			<div class="pic" id="pic">
+			<img id="img1" src="images/messi.jpg" alt="thumb1" width="100" height="300"  class="thumb">    
+			<div class="theText" id="theText1">Will Messi leave?</div>
+			</div>
+			
+			<div class="pic">
+				<img id="img2" src="images/cup.jpg" alt="thumb2" width="100" height="300"  class="thumb">    
+				<div class="theText" id="theText2">Ballon d'Or 2020 Cancelled</div>
+				</div>
+			<div class="pic">
+				<img id="img3" src="images/real.jpg" alt="thumb23" width="100" height="300"  class="thumb">    
+				<div class="theText" id="theText3">La Liga To Real</div>
+				</div>
+
+
+		   
+		   
+			<div class="pic">
+				<img id="img4" src="images/mount.jpg" alt="thumb4" width="100" height="300"  class="thumb">    
+				<div class="theText" id="theText4">Is Chelsea doing right?</div>
+				</div>
+			<div class="pic">
+				<img id="img5" src="images/goaly.jpg" alt="thumb5" width="100" height="300"  class="thumb">    
+				<div class="theText" id="theText5">Manchester United Critics</div>
+				</div>
+				<div class="pic">
+					<img id="img6" src="images/ward.jpg" alt="thumb6" width="100" height="300"  class="thumb">    
+					<div class="theText" id="theText6">Stephen Ward has left the Potters</div>
+					</div>
+			
+	
+			<div class="pic">
+				<img id="img7" src="images/juven.jpg" alt="thumb7" width="100" height="300"  class="thumb">    
+				<div class="theText" id="theText7">Juventus v SS Lazio - Serie A</div>
+				</div>
+			<div class="pic">
+				<img id="img8" src="images/nani.jpg" alt="thumb8" width="100" height="300"  class="thumb">    
+				<div class="theText" id="theText8">United Wantes Nani</div>
+				</div>
+			<div class="pic">
+				<img id="img9" src="images/smalling.jpeg" alt="thumb9" width="100" height="300"  class="thumb">    
+				<div class="theText" id="theText9">Roma Keeps Smalling</div>
+				</div>
+			
+			 </div>
+			 <!--image gallery ends-->
+      
+	</div>
+	<div class="footer">
+		<br>
+
+        <span>
+                <div>
+        <center>CONNECT WITH US:<font size="5px">
+        <a href="https://www.facebook.com/" target="_blank" id="social" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/explore" target="_blank" id="social" class="fa fa-twitter"></a>
+        <a href="#" target="_blank" id="social" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/feed/" target="_blank" id="social" class="fa fa-linkedin"></a>
+        <a href="https://www.youtube.com/" target="_blank" id="social" class="fa fa-youtube"></a></font></center></div>
+      </span>
+
+       <span><br>     <div>
+        Need Help?<br>Call Us:<br>0769021688<br><br>
+        General Enquiries:<br>goalline@hotmail.com</span>
+        <span><br><br></div><div>
+        <label for="email1">Get updates directly to your inbox:</label>
+        <input type="text" style="width:200px;"name="signup" id="email1" value="Type your Email-address"><input type="submit" class="submit" value="SignUp" style="background-color:#66a3ff" onclick="submit()"><br><br>
+       &copy; 2020 GOAL LINE COMPANY.ALL RIGHTS RESERVED.<br><br>
+        <a href="Sitemap1.html" class="bottom-links">Sitemap  |</a> 
+		<a href="#" class="bottom-links">  Privacy Policy  |</a>
+		<a href="#" class="bottom-links">  Terms and Conditions  |</a>
+		<a href="#" class="bottom-links" onclick="openNav()">  Page Editor</a>
+        </div>
+        </span>
+	</div>
+	
+	
+	
+	
+	<div class="feedback" id="id01">
+		<form name="feedback form" class="feedback-popup animate" method="post" >
+			<div class="form-header">
+			 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+			 <h3>Feedback Form</h3>
+			</div>
+			<div>
+			<label for="fname">Name:</label>
+			<input type="text" id="username" name="username" placeholder="Your name..">
+
+			<label for="email2">E-mail:</label>
+			<input type="text" id="email2" name="Email" placeholder="Your Email" >
+
+			<label for="comment">Comments:</label>
+			<textarea id="comment" name="comment" placeholder="Write something.." style="height:200px" ></textarea>
+
+			<label for="country">Rate our Website : </label>&nbsp;
+			<input type="radio" id="rate" name="rate" value ="Excellent">
+			<label for="Rate">Excellent  &#128525;</label>
+			<input type="radio" id="rate" name="rate" value ="Good">
+			<label for="Rate">Good  &#128516;</label>
+			<input type="radio" id="rate" name="rate" value ="Bad">
+			<label for="Rate">Bad  &#128533;</label>
+			<input type="radio" id="rate" name="rate" value ="Worst">
+			<label for="Rate">Worst  &#128530;</label>
+	``
+<br>
+	<br>
+			<center> <input type="submit" value="Submit" onclick="return FormSubmission()"></center>
+		</form>
+		</div>
+	</div>
+
+
+
+
+
+
+			<!-- The Modal -->
+		<div id="myModal" class="modal">
+			<span class="close2">&times;</span>
+			<img class="modal-content" id="img01"><vr>
+			<div class="caption" id="caption1">	<br><br><br><span class="title">Will Messi be Missed?</span><br><br>
+				In 2001, Lionel Messi came to Futbol Club Barcelona as a 14-year-old. A total 480 appearances for the senior team and 441 goals (out of 700 in all for club and country so far) later, maybe the wheels have started to come off, if reports from Spain are to be believed. Messi, one of the greatest footballers of all time, might not renew his contract with Barça next year.
+
+				<br><br><br><span class="sub">What is the issue?</span><br>
+				
+				According to Spanish radio network Cadena Ser, the greatest player in Barcelona’s history has called off negotiations over the extension of his contract at the club. Messi’s current contract comes to an end in 2021. Over the past decade-and-a-half Messi, has agreed to several contract extensions. The last deal was signed in 2017. ESPN has reported that off-the-pitch bust-ups with the Barcelona board is the reason why the 33-year-old has finally lost his patience.</div>
+		</div>
+
+		<!-- The Modal2 -->
+		<div id="myModal2" class="modal">
+			<span class="close3">&times;</span>
+			<img class="modal-content" id="img02">
+			<div class="caption" id="caption2"><br><br><br><span class="title">Ballon d'Or 2020 award cancelled by organisers France Football</span><br><br>
+				The Ballon d'Or, awarded annually to the world's best footballer, will not be held in 2020 due to the "lack of a sufficiently level playing field" caused by the coronavirus pandemic.
+		<br>Barcelona's Lionel Messi won the trophy in the men's category last year, while US striker Megan Rapinoe won the women's category.
+		<br>Organisers France Football said the awarding of the prize, which has been given out every year since 1956, would be "not worthy" of the trophy's history.
+		<br>The organisers added: "We did not want to put an indelible asterisk on the prize list as 'a trophy won in exceptional circumstances due to the health crisis of Covid-19'.
+		<br>"Protecting the credibility and legitimacy of such a prize also means guaranteeing its irreproachability over time."
+		<br>England's Stanley Matthews was the first winner of the award when he was voted European Footballer of the Year.
+		<br>Until 1995, the Ballon d'Or was only awarded to European players, when it was extended to any player from a European club.
+		<br>From 2007, it was extended to footballers from the rest of the world.
+		<br>The list of the 30 nominated players is drawn up by the editorial staff of the French magazine. The winner is chosen by journalists from all over the world, with one representative from each nation.</div>
+		</div>
+
+		<!-- The Modal3 -->
+		<div id="myModal3" class="modal">
+			<span class="close4">&times;</span>
+			<img class="modal-content" id="img03">
+			<div class="caption" id="caption3"> <br><br><br><span class="title">La Liga To Real</span><br><br>
+				Real Madrid sealed their 34th LaLiga title on Thursday with a 2-1 win over Villarreal at a sweltering Alfredo di Stefano in the suburbs of Madrid. Zidane’s side have been irresistibly unspectacular since the return of football and it was in that same style that they won their 10th game in a row and marched to another trophy under their French manager. Zidane, often almost accused of having some secret formula for success that he refuses to divulge, has done it again.
+
+			<br><br><br><span class="sub">Zidane focused on LaLiga title</span><br>
+			
+			Zidane refused to let his mind drift to the possible celebrations and didn’t want to entertain the importance of the game in the grander scheme of things before kick-off on Thursday night. “I don't have to think about if we draw tomorrow, or on Sunday… Tomorrow, we will be going all out to win the game, as we do in every game,” he said in the press conference before the Villarreal game. There had to be part of him that sensed something inevitable about a title win given their recent run but he wasn’t about to show that in public.
+		</div></div>
+
+		<!-- The Modal4 -->
+		<div id="myModal4" class="modal">
+			<span class="close5">&times;</span>
+			<img class="modal-content" id="img04">
+			<div class="caption" id="caption4"> <br><br><br><span class="title">Mason Mount Proving His Time Is Now At Chelsea</span><br><br>
+				Chelsea faced uncertainty ahead of the 2019/20 season. FIFA announced the club was banned from signing players for the next two transfer windows due to breaching rules in relation to signing young players.
+
+		More importantly, the ban meant that Chelsea had to rely on their youth, and this was something different for a club well known for spending big, and bringing in high caliber, marque names.
+
+		Coming through the Chelsea academy to the first team is very difficult, as most players are loaned out, but with the transfer ban currently imposed on Chelsea, there’s never been a bigger chance for the club’s youth players.
+
+		Players such as Mason Mount, Tammy Abraham, and Kurt Zouma now have their chance with the first team and, more importantly, can prove that they belong with the club. Mount in particular has finally had an opportunity presented to him.
+		</div></div>
+
+		<!-- The Modal5 -->
+		<div id="myModal5" class="modal">
+			<span class="close6">&times;</span>
+			<img class="modal-content" id="img05">
+			<div class="caption" id="caption5"> <br><br><br><span class="title">Manchester United great Paul Scholes hits out at David de Gea Critics</span><br><br>
+				Paul Scholes has backed David de Gea to return to top form for Manchester United after his latest mistake against Chelsea in the FA Cup semi-final on Sunday.
+		United crashed out of the competition following strikes from Olivier Giroud and Mason Mount as well as an own goal from Harry Maguire. De Gea could have done better on Chelsea's first before making a shocking error to allow Mount to score.
+		His latest blunder prompted some United fans to demand that Dean Henderson is installed as the club's first-choice goalkeeper next season. The England international has impressed during a two-year loan spell with Sheffield United and De Gea's poor form could give him the opportunity to stake his claim for the no.1 jersey.
+		Despite his recent errors, De Gea was backed by manager Ole Gunnar Solskjaer after the defeat but the Norwegian warned he must address his slump.
+		Scholes agrees with the current United boss and claims United would not have finished in the top half of the table in the last six seasons if not for the Spaniard.
+		"Yep, he's having a bad time, but without him United wouldn't have finished in the top 10 in the last six years," Scholes wrote on Instagram. "He'll be back!"<br><br><br>
+		De Gea extended his United contract back in September and is one of the highest paid goalkeepers in the world. He recently surpassed Peter Schmeichel to become the most capped foreign player in the club's history.
+		The Spain international stated he hoped to have many more years at the club after breaking Schmeichel's record.
+		</div></div>
+		
+		<!-- The Modal6 -->
+		<div id="myModal6" class="modal">
+			<span class="close7">&times;</span>
+			<img class="modal-content" id="img06">
+			<div class="caption" id="caption6"><br><br><br><span class="title">Stephen Ward leaves Stoke City</span><br><br>
+				Championship outfit Stoke City have announced that Republic of Ireland international Stephen Ward has left the Potters after spending the 2019/2020 season at the Bet 365 Stadium.
+		Ward, who announced his retirement from international football last year has spent 13 years in England since signing for Wolves from Bohemians back in January of 2007.
+		Following his arrival at Molineux, the Dubliner enjoyed a seven-year spell in which he played in many positions including centre forward, which helped him to score some memorable goals, including a winning goal against Liverpool at Anfield back in 2010.
+		During that spell, Ward was also an influential part of the Republic of Ireland side that qualified for Euro 2012 through a play-off against Estonia.
+		Ward scored for the Republic of Ireland in a 1-1 draw in the second leg of the tie after the Boys in Green thrashed Estonia 4-0 in Tallinn in the first leg.
+		In 2014, Ward would leave Wolves for Burnley where he would link up with fellow countrymen Kevin Long and Steven Reid.
+		The Portmarnock native would stay at Turf Moor for five seasons before departing to join Stoke in the summer of 2019.
+		Ward turns 35 next month so it will be interesting to see what his next move in football will be.
+
+
+		</div></div>
+
+		<!-- The Modal7 -->
+		<div id="myModal7" class="modal">
+			<span class="close8">&times;</span>
+			<img class="modal-content" id="img07">
+			<div class="caption" id="caption7"> <br><br><br><span class="title">Juventus 2-1 Lazio: Cristiano Ronaldo Nets Double In Pivotal Win</span><br><br>
+				Cristiano Ronaldo became the top scorer in the 2019-20 Serie A campaign with his double against Lazio, but he also put Juventus one step away from winning the club’s ninth consecutive league title. The Portuguese star netted a brace and carried Juventus to a huge 2-1 win over Lazio at Allianz Stadium on Monday. Ciro Immobile netted Lazio’s lone strike late in the second half, but that wasn’t enough to mount a comeback.
+		With the win, Juventus now sit in first place of the standings with an eight-point lead over Inter Milan and four matches left in the schedule. Putting things differently, Juventus now need two more wins in the final four games to become league champions. Again.
+		The first half didn’t generate many scoring chances on either hand. Ronaldo was active for Juventus, but the Portuguese star only accounted for one dangerous chance before the break. His shot, though, went slightly wide. The Old Lady had the best chance before the break in the 11th minute with a header from Alex Sandro following a cross from de Ligt. The Brazilian’s effort rattled the post when Thomas Strakosha was completely beaten, though.
+		Lazio had a few decent moments, mostly through Danilo Cataldi and Immobile. The Italy international generated his side’s best effort in the dying minutes of the first half, but his shot went straight into Wojciech Szczesny’s left post. The first half finished with a scoreless draw, but there would be more emotions after the break.
+		<br><br><br><span class="sub">Ronaldo seals the deal for Juventus with second-half brace</span><br>
+		Juventus only needed a few minutes to establish the difference in the second half. A shot from Paulo Dybala in the second half bounced off a defender, and the referee, Daniele Orsato, called for a penalty due to handball after consulting the play with the VAR. Ronaldo stepped up and didn’t miss, placing the ball into the right side of the goal despite Strakosha’s dive. The former Manchester United star needed just three minutes to double his tally, as he was at the end of a two-on-one counter-attacking sequence.
+		Ronaldo received a pass from Dybala to make it 2-0 in the 54th minute. It was Ronaldo’s 30th goal in the current Serie A season, a strike that left the Portuguese star all alone at the top of the scoring charts. More importantly, it allowed Juventus to create an eight-point separation with Inter Milan, who were coming off a draw against AS Roma on Sunday.
+		Lazio didn’t give up and ultimately found an equalizer when Immobile netted a penalty of his own in the dying minutes of the second half. It was Immobile’s 30th goal of the campaign, and he is now at the top of the scoring table alongside CR7. It will be a down-to-the-wire race to see which player ends up being the league’s top scorer.
+		The Rome-based side didn’t have more time to pull a comeback and were forced to settle with the 2-1 loss. It ended Lazio’s title chances, but it also boosted Juventus’ likelyhood of winning the Serie A for a ninth straight year. And once again, it all came thanks to Cristiano Ronaldo.
+
+		</div></div>
+		<!-- The Modal8 -->
+		<div id="myModal8" class="modal">
+			<span class="close9">&times;</span>
+			<img class="modal-content" id="img08">
+			<div class="caption" id="caption8"><br><br><br><span class="title">United preparing £10m package for Sporting starlet after Nani recommendation</span><br><br>
+				Manchester United are believed to be chasing Sporting Lisbon left-back Nuno Mendes following a recommendation from former winger Nani.<br><br>
+				Nani, who played for both clubs earlier in his career, has reportedly given the 17-year-old a glowing reference to current United boss Ole Gunnar Solskjaer.
+				That’s according to the Daily Star, along with a claim that Mendes initially came up in talks between the two clubs when the Red Devils signed Bruno Fernandes in January.
+				He obviously wasn’t included in the deal, but it sounds like United are keeping tabs on the youngster.
+				A package worth £10m is being discussed, as per the Daily Star report which states the player is keen to move after refusing to sign the new two-year offer Sporting made him.
+				The Portugal U19 international is regarded as one of the brightest prospects in the country and that helps explain why Solskjaer would try bring him to Old Trafford.
+				We already have Luke Shaw and Brandon Williams fighting for the left-back spot but more competition is always welcome. United need more depth and quality in their squad to challenge for major honours.
+				Meanwhile, ESPN claim United are keen to keep Portuguese right-back Diogo Dalot at the club despite interest from Barcelona and Paris Saint-Germain.
+		</div></div>
+			
+		<!-- The Modal9 -->
+		<div id="myModal9" class="modal">
+			<span class="close10">&times;</span>
+			<img class="modal-content" id="img09">
+			<div class="caption" id="caption9"><br><br><br><span class="title">Roma push to keep Smalling</span><br><br>
+				According to a recent report from Sky Sports, Roma and Manchester United are still quite far apart in their valuation of defender Chris Smalling – despite the former being incredibly eager to keep him in Italy.
+				Roma are hoping to keep the Englishman on the books for at least another year following his successful loan spell with the club, and they’re believed to be willing to pay £2.5 million in addition to an obligation to buy for £14 million. Unfortunately for them, that doesn’t quite meet the expectations set out by the Red Devils.
+				The player and the club are both interested in seeing Smalling stay in Italy on a permanent deal instead of another loan, and United have also not yet agreed on a loan extension until the end of August.
+				There are some clear and obvious defensive issues that need to be resolved by Ole Gunnar Solskjaer at the club, and this is one of them.
+		</div></div>
+	<script>
+					// Get the modal
+			var modal = document.getElementById("myModal");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById("img1");
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("caption");
+			img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.getElementsById("caption1");
+			}
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close2")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			modal.style.display = "none";
+			}
+
+			// Get the modal2
+			var modal2 = document.getElementById("myModal2");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img2 = document.getElementById("img2");
+			var modalImg2 = document.getElementById("img02");
+			var captionText2 = document.getElementById("caption");
+			img2.onclick = function(){
+			modal2.style.display = "block";
+			modalImg2.src = this.src;
+			captionText2.innerHTML = this.getElementsById("caption");
+			}
+			// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close3")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			modal2.style.display = "none";
+			}
+
+			// Get the modal3
+			var modal3 = document.getElementById("myModal3");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img3 = document.getElementById("img3");
+			var modalImg3 = document.getElementById("img03");
+			var captionText3 = document.getElementById("caption");
+			img3.onclick = function(){
+			modal3.style.display = "block";
+			modalImg3.src = this.src;
+			captionText3.innerHTML = this.getElementsById("caption3");
+			}
+			// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close4")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			modal3.style.display = "none";
+			}
+
+			// Get the modal4
+			var modal4 = document.getElementById("myModal4");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img4 = document.getElementById("img4");
+			var modalImg4 = document.getElementById("img04");
+			var captionText4 = document.getElementById("caption4");
+			img4.onclick = function(){
+			modal4.style.display = "block";
+			modalImg4.src = this.src;
+			captionText4.innerHTML = this.getElementsById("caption4");
+			}
+			// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close5")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			modal4.style.display = "none";
+			}
+
+			// Get the modal5
+			var modal5 = document.getElementById("myModal5");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img5 = document.getElementById("img5");
+			var modalImg5 = document.getElementById("img05");
+			var captionText5 = document.getElementById("caption5");
+			img5.onclick = function(){
+			modal5.style.display = "block";
+			modalImg5.src = this.src;
+			captionText5.innerHTML = this.getElementsById("caption5");
+			}
+			// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close6")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			modal5.style.display = "none";
+			}
+
+			// Get the modal6
+			var modal6 = document.getElementById("myModal6");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img6 = document.getElementById("img6");
+			var modalImg6 = document.getElementById("img06");
+			var captionText6 = document.getElementById("caption6");
+			img6.onclick = function(){
+			modal6.style.display = "block";
+			modalImg6.src = this.src;
+			captionText6.innerHTML = this.getElementsById("caption6");
+			}
+			// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close7")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			modal6.style.display = "none";
+			}
+			// Get the modal7
+			var modal7 = document.getElementById("myModal7");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img7 = document.getElementById("img7");
+			var modalImg7 = document.getElementById("img07");
+			var captionText7 = document.getElementById("caption7");
+			img7.onclick = function(){
+			modal7.style.display = "block";
+			modalImg7.src = this.src;
+			captionText7.innerHTML = this.getElementsById("caption6");
+			}
+			// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close8")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			modal7.style.display = "none";
+			}
+
+			// Get the modal8
+			var modal8 = document.getElementById("myModal8");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img8 = document.getElementById("img8");
+			var modalImg8 = document.getElementById("img08");
+			var captionText8 = document.getElementById("caption8");
+			img8.onclick = function(){
+			modal8.style.display = "block";
+			modalImg8.src = this.src;
+			captionText8.innerHTML = this.getElementsById("caption8");
+			}
+			// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close9")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+				modal8.style.display = "none";
+			}
+
+			// Get the modal9
+			var modal9 = document.getElementById("myModal9");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img9 = document.getElementById("img9");
+			var modalImg9 = document.getElementById("img09");
+			var captionText9 = document.getElementById("caption9");
+			img9.onclick = function(){
+			modal9.style.display = "block";
+			modalImg9.src = this.src;
+			captionText9.innerHTML = this.getElementsById("caption9");
+			}
+			// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close10")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+				modal9.style.display = "none";
+			}
+ 
+		
+		function FormSubmission() {
+			var comments= document.getElementById("comment").value;
+			var name= document.getElementById("username").value;
+
+			if (name=="") {
+				alert("Name should be filled out!");
+				return false;
+				
+			}
+ 
+			var radios = document.getElementsByName("rate");
+			for (var i = 0, len = radios.length; i < len; i++) {
+				if (radios[i].checked) {
+					var radiovalue=radios[i].value;
+					alert("Dear "+name+", Thank You For Your Feedback! You have rated our site as "+radiovalue+" and your commment was "+comments+".");
+					document.getElementById('id01').style.display="none";
+					return true;
+				}
+			}
+			if(radiovalue==null){
+				alert("No rating is given!");
+				return false;
+			}
+		}
+		function openNav() {
+			document.getElementById("myNav").style.height = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.height = "0%";
+		}
+		
+		function submit(){
+			var email= document.getElementById("email1").value;
+			if(email=="Type your Email-address" || email==""){
+				alert("please enter your email address!!!");
+			}else if(confirm("Did you enter correct email address?")){
+				alert("you have successfully registered, all updates will be sent to your email!");
+			}
+		}
+
+
+
+
+
+
+
+		
+
+
+
+
+function colorChange(){
+var x = document.getElementById("bgcolor");
+var bgcolor = x.options[x.selectedIndex].value;
+document.getElementById("content").style.backgroundColor= bgcolor;
+document.getElementById("theText1").style.backgroundColor= bgcolor;
+document.getElementById("theText2").style.backgroundColor= bgcolor;
+document.getElementById("theText3").style.backgroundColor= bgcolor;
+document.getElementById("theText4").style.backgroundColor= bgcolor;
+document.getElementById("theText5").style.backgroundColor= bgcolor;
+document.getElementById("theText6").style.backgroundColor= bgcolor;
+document.getElementById("theText7").style.backgroundColor= bgcolor;
+document.getElementById("theText8").style.backgroundColor= bgcolor;
+document.getElementById("theText9").style.backgroundColor= bgcolor;
+
+var y = document.getElementById("txtcolor");
+var txtcolor = y.options[y.selectedIndex].value;
+document.getElementById("content").style.color= txtcolor;
+document.getElementById("theText1").style.color= txtcolor;
+document.getElementById("theText2").style.color= txtcolor;
+document.getElementById("theText3").style.color= txtcolor;
+document.getElementById("theText4").style.color= txtcolor;
+document.getElementById("theText5").style.color= txtcolor;
+document.getElementById("theText6").style.color= txtcolor;
+document.getElementById("theText7").style.color= txtcolor;
+document.getElementById("theText8").style.color= txtcolor;
+document.getElementById("theText9").style.color= txtcolor;
+
+}
+</script>
+
+</body>
+</html>
